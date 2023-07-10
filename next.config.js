@@ -7,6 +7,6 @@ const withNextra = require('nextra')({
 module.exports = {
   ...withNextra(),
   distDir: 'docs',
-  basePath: "/nextra-getstart",
+  assetPrefix: "/nextra-getstart",
   images: { unoptimized :true }
 }

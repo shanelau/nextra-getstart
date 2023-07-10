@@ -18,7 +18,7 @@ Object.defineProperty(exports, "addBasePath", ({
 }));
 const _addpathprefix = __webpack_require__(1751);
 const _normalizetrailingslash = __webpack_require__(2387);
-const basePath = "/nextra-getstart" || 0;
+const basePath =  false || "";
 function addBasePath(path, required) {
     return (0, _normalizetrailingslash.normalizePathTrailingSlash)( false ? 0 : (0, _addpathprefix.addPathPrefix)(path, basePath));
 }
@@ -145,7 +145,7 @@ Object.defineProperty(exports, "getDomainLocale", ({
         return getDomainLocale;
     }
 }));
-const basePath = (/* unused pure expression or super */ null && ("/nextra-getstart" || 0));
+const basePath = (/* unused pure expression or super */ null && ( false || ""));
 function getDomainLocale(path, locale, locales, domainLocales) {
     if (false) {} else {
         return false;
@@ -186,7 +186,7 @@ const _imageconfigcontext = __webpack_require__(744);
 const _warnonce = __webpack_require__(618);
 const _imageloader = /*#__PURE__*/ _interop_require_default._(__webpack_require__(7746));
 // This is replaced by webpack define plugin
-const configEnv = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/nextra-getstart/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":true};
+const configEnv = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":true};
 if (true) {
     globalThis.__NEXT_IMAGE_IMPORTED = true;
 }
@@ -948,7 +948,7 @@ const unstable_getImgProps = (imgProps)=>{
     const { props } = (0, _getimgprops.getImgProps)(imgProps, {
         defaultLoader: _imageloader.default,
         // This is replaced by webpack define plugin
-        imgConf: {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/nextra-getstart/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":true}
+        imgConf: {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":true}
     });
     for (const [key, value] of Object.entries(props)){
         if (value === undefined) {
