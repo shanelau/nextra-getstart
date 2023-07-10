@@ -3,6 +3,7 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.jsx',
   output: 'export',
   distDir: 'docs',
+  basePath: "/nextra-getstart"
 })
 
 module.exports = {
